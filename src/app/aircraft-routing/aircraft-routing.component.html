@@ -1,0 +1,32 @@
+<html>
+<h5> AIRCRAFT </h5>
+<h6> {{routing.aircraft_routing[0].fos_id}} </h6>
+<br>
+<br>
+<h4> AIRCRAFT ROUTING </h4>
+<hr>
+<br>
+<div class="d-flex flex-row flex-nowrap" style= "width: 100vw; white-space: nowrap; overflow-x: scroll;">
+
+    <div *ngFor="let route of routing.aircraft_routing">
+        <aircraft-route [route] = "route"></aircraft-route>
+    </div>
+
+    <!-- <div *ngFor="let route of routing.aircraft_routing">
+        <div *ngIf="route.ops_status=='Departed'">
+            <aircraft-route [route] = "route"></aircraft-route>
+        </div>
+    </div>
+    <div *ngFor="let route of routing.aircraft_routing">
+        <div *ngIf="route.ops_status=='Active'">
+            <aircraft-route [route] = "route"></aircraft-route>
+        </div>
+    </div>
+    <div *ngFor="let route of routing.aircraft_routing">
+        <div *ngIf="route.ops_status=='Scheduled'">
+            <aircraft-route [route] = "route"></aircraft-route>
+        </div>
+    </div> -->
+
+</div>
+</html>

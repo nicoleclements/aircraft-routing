@@ -1,0 +1,39 @@
+ <div class="routingComponent">
+  <div class="card rounded-0 card-block mx-2 text-center" [ngClass] = getOpStatusClass(route.ops_status)>
+      <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3> Flight {{route.ib_flight.substr(0,4)}} </h3>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                <h5> {{route.route}} </h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                <hr>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col"> DEP </div>
+              <div class="col"> DEP </div>
+              <div class="col"> ARR </div>
+              <div class="col"> ARR </div>
+          </div>
+          <div class="row">
+              <div class="col"> GATE </div>
+              <div class="col"> {{route.arr_time.substr(11)}} </div>
+              <div class="col"> {{route.dep_time.substr(11)}} </div>
+              <div class="col"> GATE </div>
+          </div>
+          <div class="row">
+              <div class="col"> {{route.dep_gate}} </div>
+              <div class="col"> {{route.arr_time.substr(3,2)}} {{getMonth(route.dep_time.substr(0,10))}} </div>
+              <div class="col"> {{route.dep_time.substr(3,2)}} {{getMonth(route.dep_time.substr(0,10))}} </div>
+              <div class="col"> {{route.arr_gate}} </div>
+          </div>
+      </div>
+  </div>
+</div>

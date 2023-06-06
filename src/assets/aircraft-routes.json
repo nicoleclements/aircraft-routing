@@ -1,0 +1,174 @@
+
+
+{ "aircraft_routing": [
+
+    {
+
+        "station": "DFW",
+
+        "fos_id": "047",
+
+        "route": "CRP ->DFW",
+
+        "ops_status": "Departed",
+
+        "ib_flight": "3885 CRP-DFW",
+
+        "ob_flight": "3869 DFW-IAH",
+
+        "arr_time": "06/06/2023 06:12",
+
+        "dep_time": "06/06/2023 07:25",
+
+        "dep_gate": "B14 ",
+
+        "arr_gate": "B14 "
+
+    },
+
+    {
+
+        "station": "IAH",
+
+        "fos_id": "047",
+
+        "route": "DFW ->IAH",
+
+        "ops_status": "Departed",
+
+        "ib_flight": "3869 DFW-IAH",
+
+        "ob_flight": "3869 IAH-DFW",
+
+        "arr_time": "06/06/2023 08:33",
+
+        "dep_time": "06/06/2023 09:21",
+
+        "dep_gate": "A25 ",
+
+        "arr_gate": "A25 "
+
+    },
+
+    {
+
+        "station": "BTR",
+
+        "fos_id": "047",
+
+        "route": "DFW ->BTR",
+
+        "ops_status": "Scheduled",
+
+        "ib_flight": "3789 DFW-BTR",
+
+        "ob_flight": "3431 BTR-DFW",
+
+        "arr_time": "06/06/2023 13:31",
+
+        "dep_time": "06/06/2023 14:19",
+
+        "dep_gate": "B1  ",
+
+        "arr_gate": "B1  "
+
+    },
+
+    {
+
+        "station": "DFW",
+
+        "fos_id": "047",
+
+        "route": "BTR ->DFW",
+
+        "ops_status": "Scheduled",
+
+        "ib_flight": "3431 BTR-DFW",
+
+        "ob_flight": "3882 DFW-ICT",
+
+        "arr_time": "06/06/2023 15:53",
+
+        "dep_time": "06/06/2023 16:37",
+
+        "dep_gate": "B21 ",
+
+        "arr_gate": "B21 "
+
+    },
+
+    {
+
+        "station": "ICT",
+
+        "fos_id": "047",
+
+        "route": "DFW ->ICT",
+
+        "ops_status": "Scheduled",
+
+        "ib_flight": "3882 DFW-ICT",
+
+        "ob_flight": "3882 ICT-DFW",
+
+        "arr_time": "06/06/2023 17:57",
+
+        "dep_time": "06/06/2023 18:33",
+
+        "dep_gate": "    ",
+
+        "arr_gate": "    "
+
+    },
+
+    {
+
+        "station": "DFW",
+
+        "fos_id": "047",
+
+        "route": "ICT ->DFW",
+
+        "ops_status": "Scheduled",
+
+        "ib_flight": "3882 ICT-DFW",
+
+        "ob_flight": "3588 DFW-MAF",
+
+        "arr_time": "06/06/2023 19:55",
+
+        "dep_time": "06/07/2023 08:32",
+
+        "dep_gate": "B28 ",
+
+        "arr_gate": "B28 "
+
+    },
+
+    {
+
+        "station": "DFW",
+
+        "fos_id": "047",
+
+        "route": "IAH ->DFW",
+
+        "ops_status": "Active",
+
+        "ib_flight": "3869 IAH-DFW",
+
+        "ob_flight": "3789 DFW-BTR",
+
+        "arr_time": "06/06/2023 10:24",
+
+        "dep_time": "06/06/2023 12:25",
+
+        "dep_gate": "B29 ",
+
+        "arr_gate": "B29 "
+
+    }
+
+]
+}

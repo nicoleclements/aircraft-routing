@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AircraftRoutingComponent } from './aircraft-routing/aircraft-routing.component';
+import { AircraftRouteComponent } from './aircraft-route/aircraft-route.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AircraftRoutingComponent,
+    AircraftRouteComponent
   ],
   imports: [
     BrowserModule,
