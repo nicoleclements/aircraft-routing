@@ -29,7 +29,8 @@
               <div class="col"> GATE </div>
           </div>
           <div class="row">
-              <div class="col"> {{route.dep_gate}} </div>
+              <div *ngIf = "route.dep_gate.trim().length == 0"  class="col" > - </div>
+              <div *ngIf = "route.dep_gate.trim().length > 0" class="col"> {{route.dep_gate}} </div>
               <div class="col"> {{route.arr_time.substr(3,2)}} {{getMonth(route.dep_time.substr(0,10))}} </div>
               <div class="col"> {{route.dep_time.substr(3,2)}} {{getMonth(route.dep_time.substr(0,10))}} </div>
               <div class="col"> {{route.arr_gate}} </div>
